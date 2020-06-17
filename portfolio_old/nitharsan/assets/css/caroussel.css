@@ -1,0 +1,582 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+}
+
+/*-----CONTENEURS------*/
+.container1, .container2{
+    padding: 5px;
+    opacity: 0.8;
+}
+
+.jumbotron2 {
+    padding: 1rem 1rem;
+    margin-top: 0rem;
+    background-color: rgba(136, 142, 149, 0.68);
+    border-radius: 10px;
+}
+
+.jumbotron {
+    margin-top: 5rem;
+    background-color: rgba(136, 142, 149, 0.41);
+    border-radius: 15px;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+/***********************************COMPETENCES************************/
+/*#skills{
+    /* The image used */
+    /*background: url("../img/caroussel/skills.jpeg") no-repeat center fixed;
+
+    margin:0;
+    padding:0;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    /*-o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover; /* version standardisÃ©e
+}*/
+#skills {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.48);
+    min-height: 100vh;
+    color: white;
+    text-shadow: 2px 2px 2px #000;
+    padding-top: 1px;
+    margin-bottom: -5rem;
+    padding-bottom: 11rem;
+}
+
+#skills::before {
+    position: absolute;
+    z-index: -1;
+    top: -10px;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    content: "";
+    background: url("../img/caroussel/skills.jpeg") no-repeat center;
+    /*background: url("../img/caroussel/skills.jpeg") no-repeat center fixed;*/
+
+    /* PrÃ©fixes vendeurs */
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+
+    filter: blur(5px);
+
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover; /* version standardisÃ©e*/
+}
+
+/*#skills:hover::before {
+filter: blur(5px);
+}*/
+
+/*-----BOUTONS------*/
+.btn-outline-primary.custom-file-control:hover, .btn.btn-outline-primary:hover {
+    color: black;
+    background-color: #009688;
+    border: 1px solid black;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.btn-outline-primary.custom-file-control, .btn.btn-outline-primary {
+    border-radius: 15px;
+}
+
+.btn-primary.custom-file-control:hover, .btn.btn-primary:hover {
+
+    color: #009688;
+    background: rgba(169, 170, 178, 0.56);
+    border: 2px solid #009688;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    font-weight: bold;
+    /*text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;*/
+
+}
+
+/*-----BOUTON DEROULANT NAVBAR ------*/
+
+.dropdown-menu{
+    background-color: rgba(191, 201, 201, 0.69) !important;
+    border-radius: 0px 0px 40px 40px;
+    font-family: 'Merienda', cursive;
+}
+
+.dropdown-item:hover {
+    background-color: rgba(191, 201, 201, 0.89) !important;
+    border-radius: 40px;
+    font-family: 'Merienda', cursive;
+}
+
+/*-----NAVBAR ------*/
+.bg-dark{
+    background-color: rgba(191, 201, 201, 0) !important;
+    transition: all ease .5s;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,.0),0 0px 0px -0px rgba(0,0,0,.0),0 0px 0px 0 rgba(0,0,0,.0);
+}
+
+.bg-dark2{
+    background-color: rgba(191, 201, 201, 0.7) !important;
+    transition: all ease .5s;
+}
+
+.bg-dark3{
+    background-color: rgba(191, 201, 201, 0.7) !important;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 0px 0px 40px 40px;
+    transition: all ease .5s;
+}
+
+/*-----BOUTON MARQUE NAVBAR ------*/
+
+.navbar-dark .navbar-brand:hover{
+    border-radius: 20px;
+    background: rgb(19, 141, 117)
+}
+
+.navbar-dark .NavActive{
+    border-radius: 20px;
+    background: rgb(19, 141, 117)
+}
+
+
+/*-----BOUTON LIEN NAVBAR ------*/
+
+.navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link {
+    border-radius: 20px;
+    background: rgb(19, 141, 117);
+    color: white;
+    font-size: large;
+    font-family: 'Merienda', cursive;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(216, 186, 186);
+    font-size: large;
+    font-weight: bold;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    font-family: 'Merienda', cursive;
+    text-shadow: 2px 2px 2px #000;
+}
+
+/*-----BOUTON LIENS NAVBAR LORS DU PASSAGE DE LA SOURIS ------*/
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link2:hover{
+    font-size: x-large;
+    font-weight: bold;
+    transition-duration: 0.5s;
+    font-family: 'Merienda', cursive;
+}
+
+
+/*-----INPUT NAVBAR  ------*/
+
+
+navbar-dark .custom-file-control, .navbar-dark .form-control {
+    color: #ccc;
+}
+
+/*-------------BOUTON RETURN TOP-----------------*/
+.btnTopInvisible{
+    display: none;
+}
+
+
+.btnTopVisible{
+    position:fixed;
+    bottom:0.5%;
+    right:0.5%;
+    width:70px;
+    height: auto;
+    opacity: 0.5;
+}
+
+/*----------BOUTON DOWN-------------*/
+.btnDown {
+    position: fixed;
+    bottom: 0.5%;
+    left: 0.5%;
+    width: 70px;
+    height: auto;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.btnDownOff{
+    display: none;
+}
+
+/*---------------------------MENU COMPETENCES ONGLETS--------------------------------------*/
+.nav-tabs .nav-link {
+    color: rgba(63, 236, 46, 0.9);
+}
+
+.nav-tabs .nav-link.active {
+    color: rgb(5, 252, 95);
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    border-color: #59ff67 #59ff67 #59ff67;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link:hover {
+    border-color: #59ff67 #59ff67 #59ff67;
+}
+
+
+
+.nav-tabs .nav-link-perso {
+    color: rgba(63, 236, 46, 0.9);
+    background-color: #0c897bcc;
+    border-radius: 20px;
+}
+
+.nav-tabs .nav-link-perso.active {
+    color: rgb(5, 252, 95);
+    background-color: #6ddabbb3;
+    border-radius: 20px;
+}
+
+
+
+
+/* CUSTOMIZE THE cards
+-------------------------------------------------- */
+.card{
+    background-color: #8d591e;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+    max-width: 20rem;
+    cursor: pointer;
+    margin-top: 1.5rem;
+}
+
+.card .card-header {
+    background-color: #48333380;
+    text-align: center;
+    font-weight: bold;
+}
+
+.card-footer {
+    background-color: #7e737380;
+    font-style: italic;
+}
+
+.card-body {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+
+/***********PASSAGE SUR LA CARD****************/
+
+
+/* Texte original */
+.overlay-image .text {
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 1.5em;
+    text-shadow: 2px 2px 2px #000;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+/* Overlay */
+.overlay-image .hover {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    margin-left: -1.25rem;
+}
+
+/* Apparition overlay sur passage souris */
+.overlay-image:hover .hover {
+    opacity: 1;
+    background-color: rgba(128, 128, 128, 0.64);
+
+    box-shadow: 3px 3px 8px hsl(0, 0%, 0%);
+
+}
+
+/******************************************************/
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+    margin-bottom: 0rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    bottom: 1rem;
+    z-index: 10;
+    right: 0%;
+    left: 0%;
+    margin-bottom: 500px;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+    /*height: 32rem;*/
+    /*100% de view height -> hauteur de la vue*/
+    height: 100vh;
+    background-color: #777;
+}
+.carousel-item > .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /*100% de view width -> largeur de la vue*/
+    min-width: 100vw;
+    /*100% de view height -> hauteur de la vue*/
+    height: 100vh;
+    /*height: 32rem;*/
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 60px;
+    height: 60px;
+}
+
+.carousel-control-prev {
+    align-items: center;
+    justify-content: left;
+}
+
+.carousel-control-next {
+    align-items: center;
+    justify-content: right;
+}
+
+/**********************************************************************/
+@-webkit-keyframes typing { from { width: 0; } }
+@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
+
+.carouselText {
+    font: bold 300% Consolas, Monaco, monospace;
+    border-right: .1em solid black;
+    width: 16.5em;
+    width: 21ch;
+    margin: 2em 1em;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-animation: typing 2s steps(21, end),
+    blink-caret .5s step-end infinite alternate;
+}
+/************************************************************************/
+
+.first-slide{
+    /* The image used */
+    background: url("../img/caroussel/php.png") no-repeat center fixed;
+
+    margin:0;
+    padding:0;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover; /* version standardisÃ©e */
+}
+
+.second-slide{
+    /* The image used */
+    background: url("../img/caroussel/JavaAndroid.png") no-repeat center fixed;
+
+    margin:0;
+    padding:0;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover; /* version standardisÃ©e */
+}
+
+.third-slide{
+    /* The image used */
+    background: url("../img/caroussel/twig.png") no-repeat center fixed;
+
+    margin:0;
+    padding:0;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover; /* version standardisÃ©e */
+}
+
+.fourth-slide{
+    /* The image used */
+    background: url("../img/caroussel/xmlDroid3.png") no-repeat center fixed;
+
+    margin:0;
+    padding:0;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover; /* version standardisÃ©e */
+}
+
+/************************OVERLAY CAROUSEL**************************/
+
+/* Texte original */
+.transition-jumbotron .textTransition {
+    color: #fff;
+    font-size: 17px;
+    line-height: 1.5em;
+    text-shadow: 2px 2px 2px #000;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.84);
+}
+
+.transition-jumbotron .transitionDiv {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    margin-left: 0;
+    animation: fadein 5s;
+    -moz-animation: fadein 5s; /* Firefox */
+    -webkit-animation: fadein 5s; /* Safari et Chrome */
+    -o-animation: fadein 5s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0.3;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* sur Firefox */
+    from {
+        opacity:0.3;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* sur Safari et Chrome */
+    from {
+        opacity:0.3;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* sur Opera */
+    from {
+        opacity:0.3;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/******************************************************/
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.marketing h2 {
+    font-weight: 400;
+}
+.marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
+
+.marketing .col-lg-2 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.marketing .col-lg-2 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
+
+.row{
+    margin: auto;
+}
+
+
+.marketing .col {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.marketing .col p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 62em) {
+    .featurette-heading {
+        margin-top: 7rem;
+    }
+}

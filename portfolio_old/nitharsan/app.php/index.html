@@ -1,0 +1,771 @@
+
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+                    <!-- Bootstrap CSS -->
+
+
+        <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+        -->
+        
+        <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="/portfolio_old/nitharsan/assets/css/styleBase1.css">
+    
+        <link href="/portfolio_old/nitharsan/assets/css/material-design.min.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="/portfolio_old/nitharsan/assets/css/caroussel.css" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+    
+    <link rel="icon" type="image/x-icon" href="/portfolio_old/nitharsan/assets/img/iconMe.png" />
+
+    <title> Portfolio </title>
+</head>
+<!-- BLOQUER LA COPIE D'IMAGE OU DE TEXTE
+<body onload="ImpEcrOff()">
+<body onload="ImpEcrOff()">-->
+                    <!-- Bootstrap CSS -->
+
+
+        <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+        -->
+        
+        <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="/portfolio_old/nitharsan/assets/css/styleBase1.css">
+    
+        <link href="/portfolio_old/nitharsan/assets/css/material-design.min.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="/portfolio_old/nitharsan/assets/css/caroussel.css" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+    
+                <!-----------------------------------------NAVBAR--------------------------------------------->
+
+    <nav id="nav" class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a id="navbrand" class="navbar-brand" href="/portfolio_old/nitharsan/app.php/">
+            <img src="/portfolio_old/nitharsan/assets/img/logo.png" alt="Portfolio" ></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse" style="padding-top: 10px;" >
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item" id="desc">
+                    <a onclick="active('desc')" class="nav-link" href="/portfolio_old/nitharsan/app.php/#descriptionSite">
+                        Description
+                    </a>
+                </li>
+                <li class="nav-item" id="comp">
+                    <a onclick="active('comp')" class="nav-link" href="/portfolio_old/nitharsan/app.php/#competences">
+                        Compétences
+                    </a>
+                </li>
+                <li onclick="active('prjt')" class="nav-item" id="prjt">
+                    <a class="nav-link" href="/portfolio_old/nitharsan/app.php/#projets">
+                        Projets
+                    </a>
+                </li>
+                <li class="nav-item" id="veille">
+                    <a class="nav-link" href="/portfolio_old/nitharsan/app.php/veille">
+                        Veille
+                    </a>
+                </li>
+                <li class="nav-item" id="contact">
+                    <a class="nav-link" href="/portfolio_old/nitharsan/app.php/contact">Contact</a>
+                </li>
+            </ul>
+            <!--<form class="form-inline mt-2 mt-md-0">
+                <input id="navInput" class="form-control mr-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+            </form>-->
+        </div>
+    </nav>
+
+    
+
+    
+
+
+        <main role="main" id="top">
+
+
+
+
+
+            <!-----------------------------------------PRESENTATION/CAROUSSEL--------------------------------------------->
+
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                </ol>
+
+
+                <div class="carousel-inner">
+
+
+
+                    <div class="carousel-item active">
+                        <!-- Container element : PARALLAX IMAGE 1-->
+                        <div class="slide first-slide"></div>
+
+                        <div class="transition-jumbotron">
+
+                            <div class="transitionDiv">
+                                <div class="textTransition">
+                                    <div class="jumbotron2">
+                                        <div class="container2">
+                                            <h1>Nitharsan NIMALA LUXMAN</h1>
+                                            <p>Développeur informatique</p>
+                                            <p><span  style="font-family: Times, serif; font-style: italic">"There will be two kinds of people in the world,
+                                        those who tell computers what to do,
+                                        and those who’re told by computers what to do."</span>
+                                                <br>
+                                                Marc Andreesen</p>
+                                            <p><a class="btn btn-lg btn-primary" target="_blank" href="/portfolio_old/nitharsan/assets/pdf/CV-Nitharsan-NIMALA-LUXMAN.pdf" role="button">Curriculum Vitae</a>
+                                                <a class="btn btn-lg btn-primary" href="/portfolio_old/nitharsan/app.php/contact" role="button">Contacter</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="carousel-item">
+                        <!-- Container element : PARALLAX IMAGE 2-->
+                        <div class="slide second-slide"></div>
+                        
+                        <div class="transition-jumbotron">
+
+                            <div class="transitionDiv">
+                                <div class="textTransition">
+                                    <div class="jumbotron2">
+                                        <div class="container2">
+                                            <h1>Pourquoi l'informatique?</h1>
+                                            <p>L'informatique comprend une multitude de langages et d'outils qui permettent
+                                                l'interconnexion, l'automatisation et facilitent la communication.</p>
+                                            <p><span  style="font-family: Times, serif; font-style: italic">"Computers are going to be a big part of your future,
+                                                and if you're willing to work and study hard, that future is yours to shape."</span>
+                                                <br>
+                                                Barack Obama</p>
+                                            <p><a class="btn btn-lg btn-primary" href="#descriptionSite" role="button">En savoir plus</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="carousel-item">
+                        <!-- Container element : PARALLAX IMAGE 3-->
+                        <div class="slide third-slide"></div>
+                        
+                        <div class="transition-jumbotron">
+
+                            <div class="transitionDiv">
+                                <div class="textTransition">
+                                    <div class="jumbotron2">
+                                        <div class="container2">
+                                            <h1>Mes compétences</h1>
+                                            <p>Suite à ma formation et mon expérience professionnel j'ai pu acquérir de multiples compétences.</p>
+                                            <p><span  style="font-family: Times, serif; font-style: italic">"Coders change the world. They build new,
+                                                amazing things faster than ever before. Anyone with imagination can learn to write code. "</span>
+                                                <br>
+                                                Jeff Wilke</p>
+                                            <p><a class="btn btn-lg btn-primary" href="#competences" role="button">Consulter</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="carousel-item">
+                        <!-- Container element : PARALLAX IMAGE 3-->
+                        <div class="slide fourth-slide"></div>
+                        
+                        <div class="transition-jumbotron">
+
+                            <div class="transitionDiv">
+                                <div class="textTransition">
+                                    <div class="jumbotron2">
+                                        <div class="container2">
+                                            <h1>Mes projets</h1>
+                                            <p>J'ai eu l'occasion de mettre en oeuvre des projets qui m'ont permis d'acquérir des compétences.</p>
+                                            <p><span style="font-family: Times, serif; font-style: italic">"It’s fine to celebrate success but it is
+                                                more important to heed the lessons of failure."</span>
+                                                <br>
+                                                Bill Gates</p>
+                                            <p><a class="btn btn-lg btn-primary" href="#projets" role="button">Consulter</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+
+
+            <!-----------------------------------------DESCRIPTION--------------------------------------------->
+
+            <!--<div class="container1" style="background-color: #3c0539cc; color: #ffffff; padding-bottom: 5rem;">-->
+                <div class="jumbotron jumbotron-fluid" id="descriptionSite" style="color: #fff;
+                /*CENTRER VERTICALEMENT LE CONTENEUR ENFANT DANS CETTE DIV PARENTE*/
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+   min-height: 100vh;background: rgb(19, 118, 141);border-radius: 0px;padding-bottom: 1.5rem;margin-top: 0rem;margin-bottom: -0.2rem">
+
+                    <div class="container2" style="padding: 20px; border: #fbfbfb 2px solid;background: black;color: white;">
+    <div class="container" style="padding-top: 2%">
+        <img id="avatar" style="display: block;margin-left: auto;margin-right: auto" src="/portfolio_old/nitharsan/assets/img/iconMe.png" alt="identity picture" height="120px" width="110px">
+        <h1 class="display-4" style="text-align: center">Nitharsan NIMALA LUXMAN</h1>
+    </div>
+    <hr style="border: #ffffff4d 0.5px solid;
+width: 70%;
+margin-top: 2%;
+margin-bottom: 4%;">
+    <p class="lead">Bonjour et bienvenue,</p>
+
+    <p class="text-justify" style="font-size: larger">Je suis actuellement étudiant en BTS Services Informatiques aux Organisations
+        (option Solutions Logicielles et Applications Métier)
+        et prévois de poursuivre en tant qu'apprenti ingénieur en BigData à Esgi Paris.</p>
+
+    <p class="text-justify" style="font-size: larger">J'ai passé mon enfance à démonter, remonter, et transformer tout type d'objets (notamment électroniques).
+        Je n'avais pas encore conscience du vaste monde de l'informatique.
+        Lorsque j'ai découvert le potentiel de ce domaine et le fait de pouvoir mettre ma créativité à
+        contribution grâce à la programmation, j'ai décidé de consacrer mes journées à me former et
+        mes nuits à rattrapper le temps perdu. Mes compétences ne cessent d'accroître mais
+        mon apprentissage de ce domaine ne cessera jamais.</p>
+
+    <p class="lead">Ce site met en avant mes compétences de développeur et me permet de partager ma passion.</p>
+
+</div>
+                </div>
+            <!--</div>-->
+
+            <!-----------------------------------------COMPETENCES--------------------------------------------->
+
+
+            <div id="skills">
+                <div class="container marketing" id="competences">
+
+                        <hr style="border: none ;border-bottom:  2px solid #10ff5fe6; padding-top: 6%" >
+<h1 style="text-align: center">Compétences</h1>
+<hr style="border:  1px solid #10ff5fe6">
+
+<!----------------------------------MENU DES COMPETENCES------------------------------>
+<ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+    <li class="nav-item" >
+        <a class="nav-link-perso active nav-link" id="langages-tab" data-toggle="tab" href="#langages" role="tab" aria-controls="langages" aria-selected="true">
+            <img src="/portfolio_old/nitharsan/assets/img/logosCompetences/code.png" height="30">
+            Langages</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link-perso nav-link" id="frameworks-tab" data-toggle="tab" href="#frameworks" role="tab" aria-controls="frameworks" aria-selected="false" style="margin-left:5px;margin-right:5px">
+            <img src="/portfolio_old/nitharsan/assets/img/logosCompetences/boiteOutilIcon.png" height="30">
+            Frameworks & IDE</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link-perso nav-link" id="tools-tab" data-toggle="tab" href="#tools" role="tab" aria-controls="tools" aria-selected="false">
+            <img src="/portfolio_old/nitharsan/assets/img/logosCompetences/outil.png" height="30">
+            Outils</a>
+    </li>
+</ul>
+<br>
+<ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist"
+    <li>
+       <a class="nav-link-perso nav-link btn btn-lg btn-primary" target="_blank" href="/portfolio_old/nitharsan/assets/pdf/tableau_de_competence_Nitharsan.pdf" role="button">Tableau de synthèse</a>
+		
+	</li>
+<br><br>
+
+
+<div class="tab-content" id="myTabContent">
+    <!----------------------------------LANGAGES------------------------------>
+    <div class="tab-pane fade show active" id="langages" role="tabpanel" aria-labelledby="langages-tab">
+
+        <div class="row" >
+            <div class="col">
+                <img class="rounded-0" src="/portfolio_old/nitharsan/assets/img/logosCompetences/php.png" alt="logo php" width="auto" height="90">
+                <h2>PHP</h2>
+                <p></p>
+                <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
+            </div><!-- /.col-lg-2-->
+            <div class="col">
+                <img class="rounded-0" src="/portfolio_old/nitharsan/assets/img/logosCompetences/HTML5-CSS3-JS.png" alt="logo HTML/CSS/JS" width="auto" height="90">
+                <h2>HTML5, CSS3, JavaScript</h2>
+                <p></p>
+                <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
+            </div><!-- /.col-lg-2 -->
+
+            <div class="col">
+                <img class="rounded-0" src="/portfolio_old/nitharsan/assets/img/logosCompetences/Java.png" alt="logo java" width="auto" height="90">
+                <h2>Java</h2>
+                <p></p>
+                <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
+            </div><!-- /.col-lg-2-->
+            <div class="col">
+                <img class="rounded-0" src="/portfolio_old/nitharsan/assets/img/logosCompetences/android.png" alt="logo android" width="90" height="90">
+                <h2>Androïd (XML/Java)</h2>
+                <p></p>
+                <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
+            </div><!-- /.col-lg-2 -->
+
+            <div class="col">
+                <img class="rounded-0" src="/portfolio_old/nitharsan/assets/img/logosCompetences/python.png" alt="logo python" width="90" height="90">
+                <h2>Python</h2>
+                <p></p>
+                <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
+            </div>
+
+            <div class="col">
+                <img class="rounded-0" src="/portfolio_old/nitharsan/assets/img/logosCompetences/doctrine.png" alt="logo doctrine" width="90" height="90">
+                <h2>Doctrine / DQL</h2>
+                <p></p>
+                <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
+            </div><!-- /.col-lg-2 -->
+
+            <div class="col">
+                <img class="rounded-0"  src="/portfolio_old/nitharsan/assets/img/logosCompetences/mySql.svg" alt="logo mysql" width="90" height="90">
+                <h2>MySQL</h2>
+                <p></p>
+                <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
+            </div><!-- /.col-lg-2 -->
+
+            <div class="col">
+                <img class="rounded-0"  src="/portfolio_old/nitharsan/assets/img/logosCompetences/postgresql.png" alt="logo postgresql width="90" height="90">
+                <h2>Postgresql</h2>
+                <p></p>
+                <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
+            </div><!-- /.col-lg-2 -->
+            <div class="col">
+                <img class="rounded-0"  src="/portfolio_old/nitharsan/assets/img/logosCompetences/uml.png" alt="logo uml" width="90" height="90">
+                <h2>UML</h2>
+                <p></p>
+                <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
+            </div><!-- /.col-lg-2 -->
+            <div class="col">
+                <img class="rounded-0" src="/portfolio_old/nitharsan/assets/img/logosCompetences/bash.png" alt="logo bash" width="auto" height="90">
+                <h2>Bash</h2>
+                <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
+            </div>
+            <div class="col">
+                <img class="rounded-0" src="/portfolio_old/nitharsan/assets/img/logosCompetences/twig.png" alt="logo twig" width="auto" height="90">
+                <h2>Twig</h2>
+                <p>Moteur de templates pour le PHP.</p>
+                <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
+            </div>
+
+
+
+        </div><!-- /.row -->
+
+    </div>
+
+    <!----------------------------------FRAMEWORKS------------------------------>
+    <div class="tab-pane fade" id="frameworks" role="tabpanel" aria-labelledby="frameworks-tab">
+
+        <div class="row" >
+            <div class="col">
+                <img class="rounded-0" src="/portfolio_old/nitharsan/assets/img/logosCompetences/symfony.png" alt="logo symfony" width="auto" height="90">
+                <h2>Symfony</h2>
+                <p></p>
+                <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
+            </div>
+            <div class="col">
+                <img class="rounded-0" src="/portfolio_old/nitharsan/assets/img/logosCompetences/codeIgniter.png" alt="logo CodeIgniter" width="auto" height="90">
+                <h2>CodeIgniter</h2>
+                <p></p>
+                <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
+            </div>
+            <div class="col">
+                <img class="rounded-0" src="/portfolio_old/nitharsan/assets/img/logosCompetences/bootstrap.png" alt="logo bootstrap" width="auto" height="90">
+                <h2>Bootstrap</h2>
+                <p></p>
+                <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
+            </div>
+            <div class="col">
+                <img class="rounded-0" src="/portfolio_old/nitharsan/assets/img/logosCompetences/eclipse.svg" alt="logo eclipse" width="auto" height="90">
+                <h2>Eclipse</h2>
+                <p></p>
+                <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
+            </div>
+            <div class="col">
+                <img class="rounded-0" src="/portfolio_old/nitharsan/assets/img/logosCompetences/netbeans.png" alt="logo netbeans" width="auto" height="90">
+                <h2>NetBeans</h2>
+                <p></p>
+                <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
+            </div>
+            <div class="col">
+                <img class="rounded-0" src="/portfolio_old/nitharsan/assets/img/logosCompetences/phpstorm.png" alt="logo phpstorm" width="auto" height="90">
+                <h2>PhpStorm</h2>
+                <p></p>
+                <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
+            </div>
+            <div class="col">
+                <img class="rounded-0" src="/portfolio_old/nitharsan/assets/img/logosCompetences/AndroidStudio.png" alt="logo androïd studio" width="auto" height="90">
+                <h2>Android Studio</h2>
+                <p></p>
+                <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
+            </div>
+
+        </div><!-- /.row -->
+
+    </div>
+    <!----------------------------------OUTILS------------------------------>
+    <div class="tab-pane fade" id="tools" role="tabpanel" aria-labelledby="tools-tab">
+
+
+        <div class="row" >
+
+            <div class="col">
+                <img class="rounded-0" src="/portfolio_old/nitharsan/assets/img/logosCompetences/Flask.png" alt="logo Flask" width="auto" height="90">
+                <h2>architecture REST</h2>
+                <p></p>
+                <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
+            </div>
+            <div class="col">
+                <img class="rounded-0" src="/portfolio_old/nitharsan/assets/img/logosCompetences/git.png" alt="logo Git" width="auto" height="90">
+                <h2>Git</h2>
+                <p>Gestions de versions.</p>
+                <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
+            </div>
+            <div class="col">
+                <img class="rounded-0" src="/portfolio_old/nitharsan/assets/img/logosCompetences/ocs.png" alt="logo OCS inventory" width="auto" height="90">
+                <h2>OCS inventory & GLPI</h2>
+                <p>Gestions de configurations.</p>
+                <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
+            </div>
+            <div class="col">
+                <img class="rounded-0" src="/portfolio_old/nitharsan/assets/img/logosCompetences/gestionProjet.png" alt="logo gestion de projets" width="auto" height="80">
+                <h2>GANTT, MPM, PERT</h2>
+                <p>Gestion de projets.</p>
+                <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
+            </div>
+            <div class="col">
+                <img class="rounded-0" src="/portfolio_old/nitharsan/assets/img/logosCompetences/merise.png" alt="logo merise" width="auto" height="90">
+                <h2>MR/MCD</h2>
+                <p>Méthode de conception de bases de donnée.</p>
+                <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
+            </div>
+            <div class="col">
+                <img class="rounded-0" src="/portfolio_old/nitharsan/assets/img/logosCompetences/os.png" alt="logo os" width="auto" height="90">
+                <h2>LAMP/WAMP</h2>
+                <p>Maîtrise des O.S. Linux & Windows et de leurs outils pour la programmation en local.</p>
+                <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
+            </div>
+            <div class="col">
+                <img class="rounded-0" src="/portfolio_old/nitharsan/assets/img/logosCompetences/design.png" alt="logo webDesign" width="auto" height="120">
+                <h2>Design Open Source</h2>
+                <p>Utilisation de divers logiciels de montages.</p>
+                <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
+            </div>
+        </div>
+
+    </div>
+</div>
+
+		
+	
+
+                </div>
+            </div>
+
+
+
+
+
+            <!-----------------------------------------PROJETS--------------------------------------------->
+
+            <div class="container1" style="background: rgb(19, 118, 141); color: #fff;
+            padding-bottom: 2rem; margin-top: 5rem;" >
+
+                <div class="container marketing" id="projets">
+
+                    <hr style="border: none ;border-bottom:  2px solid #9e4f02e6; padding-top: 6%" >
+<h1 style="text-align: center">Projets</h1>
+<hr style="border:  1px solid #9e4f02e6">
+
+
+<div class="row" style="display: flex;
+flex-direction: row;
+justify-content: center;">
+
+
+
+    <div class="card border-dark mb-3"  onclick="window.location.href='/portfolio_old/nitharsan/app.php/projets/Gsbfrais.html'" >
+        <div class="card-header">GsbFrais - Logiciel Web - Symfony 4  </div>
+        <div class="card-body text-dark">
+
+            <div class="overlay-image">
+
+                <img class="card-img" src="/portfolio_old/nitharsan/assets/img/couvProjets/GsbFrais.png" alt="Gsb Frais">
+
+
+                <div class="hover">
+                    <div class="text">Découvrir</div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="card-footer">Octobre 2019</div>
+    </div>
+
+
+
+
+    <div class="card border-dark mb-3"  onclick="window.location.href='/portfolio_old/nitharsan/app.php/projets/appRvAndroid.html'">
+        <div class="card-header">AppRv - Application Mobile</div>
+        <div class="card-body text-dark">
+
+            <div class="overlay-image">
+
+                <img class="card-img" src="/portfolio_old/nitharsan/assets/img/couvProjets/android.png" alt="appliRv-Android">
+
+
+                <div class="hover">
+                    <div class="text">Découvrir</div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="card-footer">Avril 2020</div>
+    </div>
+
+
+    <div class="card border-dark mb-3"  onclick="window.location.href='/portfolio_old/nitharsan/app.php/projets/appliRvPc.html'">
+        <div class="card-header">AppliRv - Client lourd</div>
+        <div class="card-body text-dark">
+
+            <div class="overlay-image">
+
+                <img class="card-img" src="/portfolio_old/nitharsan/assets/img/couvProjets/appliRvSwing.png" alt="appliRv-JavaSwing">
+
+                <div class="hover">
+                    <div class="text">Découvrir</div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="card-footer">Décembre 2019</div>
+    </div>
+
+
+    <div class="card border-dark mb-3"  onclick="window.location.href='/portfolio_old/nitharsan/app.php/ocsInventoryGlpi'">
+        <div class="card-header">Gestion d'un parc informatique</div>
+        <div class="card-body text-dark">
+
+            <div class="overlay-image">
+
+                <img class="card-img" src="/portfolio_old/nitharsan/assets/img/couvProjets/ocs.png" alt="OCS inventory">
+
+                <div class="hover">
+                    <div class="text">Découvrir</div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="card-footer">Décembre 2020</div>
+    </div>
+
+
+    <div class="card border-dark mb-3"  onclick="window.location.href='/portfolio_old/nitharsan/app.php/etudeContratService'">
+        <div class="card-header">Étude d'un contrat de fourniture de service informatique</div>
+        <div class="card-body text-dark">
+
+            <div class="overlay-image">
+
+                <img class="card-img" src="/portfolio_old/nitharsan/assets/img/couvProjets/ContratInfo.jpg" alt="Etude contrat fourniture">
+
+                <div class="hover">
+                    <div class="text">Découvrir</div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="card-footer">Mai 2019</div>
+    </div>
+
+
+    <div class="card border-dark mb-3"  onclick="window.location.href='/portfolio_old/nitharsan/app.php/resanet'">
+        <div class="card-header">Résanet - Logiciel Web</div>
+        <div class="card-body text-dark">
+
+            <div class="overlay-image">
+
+                <img class="card-img" src="/portfolio_old/nitharsan/assets/img/couvProjets/résanet.png" alt="résanet">
+
+                <div class="hover">
+                    <div class="text">Découvrir</div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="card-footer">Janvier 2018</div>
+    </div>
+
+
+    <div class="card border-dark mb-3"  onclick="window.location.href='/portfolio_old/nitharsan/app.php/administrationVmDebian'">
+        <div class="card-header">Création et administration d'une machine virtuelle Debian</div>
+        <div class="card-body text-dark">
+
+            <div class="overlay-image">
+
+                <img class="card-img" src="/portfolio_old/nitharsan/assets/img/couvProjets/debian.png" alt="Gestion machine virtuelle">
+
+                <div class="hover">
+                    <div class="text">Découvrir</div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="card-footer">Décembre 20</div>
+    </div>
+
+</div>
+
+<br><br>
+
+
+<hr class="featurette-divider">
+
+                </div><!-- /.container -->
+
+            </div>
+
+
+                <!-- /END THE FEATURETTES -->
+
+
+
+            <!-----------------------------------------BOUTON UP--------------------------------------------->
+            <a href="#top">
+                <img id="btnTop" class="btnTopInvisible" src="/portfolio_old/nitharsan/assets/img/arrows/up-arrow.png" alt="fade up">
+            </a>
+
+            <!-----------------------------------------BOUTON DOWN--------------------------------------------->
+            <a href="#descriptionSite" onclick="active('desc')">
+                <img id="btnDown" class="btnDown" src="/portfolio_old/nitharsan/assets/img/arrows/down-arrow.png" alt="fade down">
+            </a>
+
+            <a href="#competences" onclick="active('comp')">
+                <img id="btnDown2" class="btnDownOff" src="/portfolio_old/nitharsan/assets/img/arrows/down-arrow.png" alt="fade down">
+            </a>
+
+            <a href="#projets" onclick="active('prjt')" >
+                <img id="btnDown3" class="btnDownOff" src="/portfolio_old/nitharsan/assets/img/arrows/down-arrow.png" alt="fade down">
+            </a>
+
+        </main>
+    
+                <footer class="footer">
+        <div class="container-fluid" style="margin-top: 25px">
+            <div class="row">
+                <div class="col">
+                    <img src="/portfolio_old/nitharsan/assets/img/logoNico.png" alt="Nitharsan NIMALA LUXMAN" style="margin-top: -0.8rem;">
+                </div>
+                <div class="col">
+                        <p>&copy; 2019-2020 Nitharsan NIMALA LUXMAN &middot; <a href="#">Privacy</a> &middot;
+                            <a href="#">Terms</a></p>
+                </div>
+                <div class="col">
+                    <p>Site développé à l'aide de la version 4 de Symfony.</p>
+                </div>
+                <div class="row">
+                    <div class="row" style="margin-top: -2rem;margin-left: 1.3rem;">
+                        <div>
+                            <a target="_blank" href="https://www.linkedin.com/in/nitharsan-nimala-luxman-389b6614a/">
+                                <img style="float: right;" width="50px" src="/portfolio_old/nitharsan/assets/img/contact/linkedin.svg" alt="LinkedIn">
+                            </a>
+                        </div>
+                        <div style="margin-left: 1rem;">
+                            <a target="_blank" href="https://twitter.com/nitharsan21">
+                                <img width="50px" src="/portfolio_old/nitharsan/assets/img/contact/twitter.svg" alt="Twitter">
+                            </a>
+                        </div>
+                        <div style="margin-left: 1rem;">
+                            <a href="/portfolio_old/nitharsan/app.php/contact">
+                                <img width="50px" src="/portfolio_old/nitharsan/assets/img/contact/email.svg" alt="Courriel">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <p class="float-right" style="margin-left: 8%">
+                        <a href="#"><i style="width:35px; height: auto;" class="fas fa-angle-up"></i></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+                <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+    <script src="" ></script>-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+    <script src="/portfolio_old/nitharsan/assets/js/bootstrap.bundle.js" ></script>
+    <script src="/portfolio_old/nitharsan/assets/js/bootstrap.js" ></script>
+    <script src="/portfolio_old/nitharsan/assets/js/scriptTopMenu.js"></script>
+    <!-- BLOQUER LA COPIE D'IMAGE OU DE TEXTE-->
+    <script type="text/javascript">
+    //EMPECHER LA COPIE
+        /*document.onselectstart=new Function("return false");
+        document.oncontextmenu=new Function("return false");
+        document.ondragstart =new Function("return false");
+        function ImpEcrOff() { SetInterval("window.clipboardData.setData('text','')",20); }*/
+    </script>
+
+
+        <script src="/portfolio_old/nitharsan/assets/js/holder.min.js" ></script>
+        <script src="/portfolio_old/nitharsan/assets/js/jquery-3.3.1.slim.min.js" ></script>
+        <script src="/portfolio_old/nitharsan/assets/js/popper.min.js" ></script>
+
+        <script src="/portfolio_old/nitharsan/assets/js/accueilScript.js" ></script>
+
+
+
+
+</body>
+</html>

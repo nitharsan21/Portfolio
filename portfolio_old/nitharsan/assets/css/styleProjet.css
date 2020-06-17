@@ -1,0 +1,153 @@
+div.main1 {
+    background: rgb(19, 141, 117);
+    padding-bottom: 10rem;
+    min-height: 100vh;
+    font-family: 'Raleway', sans-serif;
+}
+
+body, html{
+    background: rgb(19, 141, 117);
+}
+
+h5{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.btn-primary.custom-file-control::before, .btn.btn-primary {
+    color: #009688;
+    background-color: inherit;
+    border-color: #ccc;
+}
+
+#myCardTitle{
+    width: 50rem;
+    color: #0c5460;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+.conteneur-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 4%;
+}
+
+span.surligne{
+    background-color: rgb(19, 141, 117);
+    border-radius: 20px;
+    color: white;
+    padding: 5px;
+    text-decoration: underline;
+}
+
+/*TEXTE CORPS DES CARTES*/
+.card-text{
+    font-size: 20px;
+}
+
+.card {
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+    cursor: inherit;
+    margin-top: 1.5rem;
+    background-color: white;
+    max-width: inherit;
+}
+
+.card .card-header {
+    background-color: rgba(165, 165, 165, 0.31);
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+.cardCaroussel {
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+    cursor: inherit;
+    margin-top: 1.5rem;
+    background-color: white;
+    max-width: inherit;
+    position: relative;
+    /*CENTRER HORIZONTALEMENT LE CONTENU*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    /*border: 1px solid rgba(0,0,0,.12);
+    border-radius: .125rem;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);*/
+    font-size: .875rem;
+    font-weight: 400;
+}
+.carousel-item > img{
+    max-width: 50vw;
+    max-height: 80vh;
+}
+
+.carousel-item {
+    max-width: 50vw;
+    width: inherit;
+    /*CENTRER VERTICALEMENT LE CONTENU*/
+    height: 80vh;
+    line-height: 80vh; /* hauteur de ligne (identique) */
+    white-space: nowrap; /* interdiction de passer à la ligne */
+
+    background: none;
+    vertical-align: center;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    background: rgb(0, 0, 0) no-repeat 50%;
+    border-radius: 40px;
+}
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.bg-dark{
+    background-color: rgba(81, 84, 84, 0.89) !important;
+}
+
+.container1 {
+    padding-top: 270px;
+    padding-right: 50px;
+    padding-bottom: 70px;
+    padding-left: 50px;
+    opacity: 1;
+}
+
+.container2 {
+    padding-right: 25px;
+    padding-left: 25px;
+    opacity: 1;
+}
+
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    border-color: #000 #000 #000;
+}
+.nav-tabs .nav-link.active {
+    color: rgb(0, 0, 0);
+}
+
+.nav-tabs .nav-link {
+    color: rgba(90, 90, 90, 0.9);
+}
+
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link:hover {
+    border-color: #000 #000 #000;
+}
+
+.form-group{
+    color: black;
+}

@@ -1,0 +1,271 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+                            <!-- Bootstrap CSS -->
+
+
+        <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+        -->
+        
+        <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="/portfolio_old/nitharsan/assets/css/styleBase1.css">
+    
+        <link href="/portfolio_old/nitharsan/assets/css/material-design.min.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="/portfolio_old/nitharsan/assets/css/caroussel.css" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+    
+        <link rel="stylesheet" href="/portfolio_old/nitharsan/assets/css/styleContact.css">
+    
+    <link rel="icon" type="image/x-icon" href="/portfolio_old/nitharsan/assets/img/iconMe.png" />
+    
+
+    <title> Portfolio </title>
+</head>
+<!-- BLOQUER LA COPIE D'IMAGE OU DE TEXTE
+<body onload="ImpEcrOff()">
+<body onload="ImpEcrOff()">-->
+                            <!-- Bootstrap CSS -->
+
+
+        <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+        -->
+        
+        <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="/portfolio_old/nitharsan/assets/css/styleBase1.css">
+    
+        <link href="/portfolio_old/nitharsan/assets/css/material-design.min.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="/portfolio_old/nitharsan/assets/css/caroussel.css" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+    
+        <link rel="stylesheet" href="/portfolio_old/nitharsan/assets/css/styleContact.css">
+    
+                        <!-----------------------------------------NAVBAR--------------------------------------------->
+
+    <nav id="nav" class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a id="navbrand" class="navbar-brand" href="/portfolio_old/nitharsan/app.php/">
+            <img src="/portfolio_old/nitharsan/assets/img/logo.png" alt="Portfolio" ></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse" style="padding-top: 10px;" >
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item" id="desc">
+                    <a onclick="active('desc')" class="nav-link" href="/portfolio_old/nitharsan/app.php/#descriptionSite">
+                        Description
+                    </a>
+                </li>
+                <li class="nav-item" id="comp">
+                    <a onclick="active('comp')" class="nav-link" href="/portfolio_old/nitharsan/app.php/#competences">
+                        Compétences
+                    </a>
+                </li>
+                <li onclick="active('prjt')" class="nav-item" id="prjt">
+                    <a class="nav-link" href="/portfolio_old/nitharsan/app.php/#projets">
+                        Projets
+                    </a>
+                </li>
+                <li class="nav-item" id="veille">
+                    <a class="nav-link" href="/portfolio_old/nitharsan/app.php/veille">
+                        Veille
+                    </a>
+                </li>
+                <li class="nav-item" id="contact">
+                    <a class="nav-link" href="/portfolio_old/nitharsan/app.php/contact">Contact</a>
+                </li>
+            </ul>
+            <!--<form class="form-inline mt-2 mt-md-0">
+                <input id="navInput" class="form-control mr-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+            </form>-->
+        </div>
+    </nav>
+
+    
+    
+    
+        <div class="main1" style="background: rgb(19, 118, 141)">
+
+
+            <div class="container1">
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="container2">
+                        <div class="container" style="padding-top: 2%">
+                                                        <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="mail-tab" data-toggle="tab" href="#mail" role="tab" aria-controls="mail" aria-selected="true"><h1 style="text-align: center"><img style="padding-right: 15px; padding-bottom: 12px" width="50px" src="/portfolio_old/nitharsan/assets/img/contact/email.svg">Courriel</h1></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="res-tab" data-toggle="tab" href="#res" role="tab" aria-controls="res" aria-selected="false"><h1 style="text-align: center"><img style="padding-right: 15px; padding-bottom: 12px" width="50px" src="/portfolio_old/nitharsan/assets/img/contact/network.svg">Réseaux sociaux</h1></a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <hr style="border: rgb( 19, 141, 117 ) solid 2px">
+
+                        <div class="tab-content" id="myTabContent">
+                                                        <div class="tab-pane fade show active" id="mail" role="tabpanel" aria-labelledby="mail-tab">
+
+                                <form name="form" method="post">
+                                                                                                                <div class="row justify-content-center">
+                                            <div class="alert alert-danger" style="background-color: #f3d915b3;border-radius: 20px;" role="alert">
+                                                Les champs avec un astérix (*) doivent être remplis
+                                            </div>
+                                        </div>
+                                                                    <div class="row">
+                                    <div class="col" style="min-width: 220px">
+                                        <div class="form-group">
+                                            <div><label for="form_firstName" class="required">Prénom  *</label><input type="text" id="form_firstName" name="form[firstName]" required="required" class="form-control" placeholder="first name" id="" /></div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div><label for="form_lastName" class="required">Nom  *</label><input type="text" id="form_lastName" name="form[lastName]" required="required" class="form-control" placeholder="last name" id="" /></div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div><label for="form_email" class="required">E-mail  *</label><input type="email" id="form_email" name="form[email]" required="required" class="form-control" placeholder="EX : nom.prenom@serveur.com" id="" /></div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div><label for="form_tel">Téléphone</label><input type="tel" id="form_tel" name="form[tel]" class="form-control" placeholder="EX : 06/01 ** ** ** **" id="" /></div>
+                                        </div>
+                                    </div>
+                                    <div class="col" style="min-width: 220px">
+                                        <div class="form-group">
+                                            <div><label for="form_subject" class="required">Objet  *</label><input type="text" id="form_subject" name="form[subject]" required="required" class="form-control" placeholder="EX : [ajout fonctionnalité]" id="" /></div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div><label for="form_content" class="required">Message  *</label><textarea id="form_content" name="form[content]" required="required" class="form-control" placeholder="EX : Bonjour, 
+
+ pourriez-vous ajouter une page de discussion. 
+
+ Cordialement, 
+ Amber K." rows="10"></textarea></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col">
+                                        <div><button type="submit" id="form_submit" name="form[submit]" class="btn btn-outline-success" style="width:100%">Envoyer</button></div>
+                                    </div>
+                                    <div class="col">
+                                        <div><button type="reset" id="form_reset" name="form[reset]" class="btn btn-outline-danger" style="width:100%">Annuler</button></div>
+                                    </div>
+                                </div>
+
+
+                                <input type="hidden" id="form__token" name="form[_token]" value="3KC6cuKMTmXI6u8aCEDgBQfOYNU6OQ_pPwGLPnA2f7U" /></form>
+
+                            </div>
+                                                        <div class="tab-pane fade" id="res" role="tabpanel" aria-labelledby="res-tab">
+
+                                <div class="row justify-content-center">
+                                    <div style="margin-right: 1rem">
+                                        <a target="_blank" href="https://www.linkedin.com/in/nitharsan-nimala-luxman-389b6614a/">
+                                            <img style="float: right;" width="200px" src="/portfolio_old/nitharsan/assets/img/contact/linkedin.svg" alt="LinkedIn">
+                                        </a>
+                                    </div>
+                                    <div style="margin-left: 1rem">
+                                        <a target="_blank" href="https://twitter.com/nitharsan21">
+                                            <img width="200px" src="/portfolio_old/nitharsan/assets/img/contact/twitter.svg" alt="Twitter">
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+    
+                        <footer class="footer">
+        <div class="container-fluid" style="margin-top: 25px">
+            <div class="row">
+                <div class="col">
+                    <img src="/portfolio_old/nitharsan/assets/img/logoNico.png" alt="Nitharsan NIMALA LUXMAN" style="margin-top: -0.8rem;">
+                </div>
+                <div class="col">
+                        <p>&copy; 2019-2020 Nitharsan NIMALA LUXMAN &middot; <a href="#">Privacy</a> &middot;
+                            <a href="#">Terms</a></p>
+                </div>
+                <div class="col">
+                    <p>Site développé à l'aide de la version 4 de Symfony.</p>
+                </div>
+                <div class="row">
+                    <div class="row" style="margin-top: -2rem;margin-left: 1.3rem;">
+                        <div>
+                            <a target="_blank" href="https://www.linkedin.com/in/nitharsan-nimala-luxman-389b6614a/">
+                                <img style="float: right;" width="50px" src="/portfolio_old/nitharsan/assets/img/contact/linkedin.svg" alt="LinkedIn">
+                            </a>
+                        </div>
+                        <div style="margin-left: 1rem;">
+                            <a target="_blank" href="https://twitter.com/nitharsan21">
+                                <img width="50px" src="/portfolio_old/nitharsan/assets/img/contact/twitter.svg" alt="Twitter">
+                            </a>
+                        </div>
+                        <div style="margin-left: 1rem;">
+                            <a href="/portfolio_old/nitharsan/app.php/contact">
+                                <img width="50px" src="/portfolio_old/nitharsan/assets/img/contact/email.svg" alt="Courriel">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <p class="float-right" style="margin-left: 8%">
+                        <a href="#"><i style="width:35px; height: auto;" class="fas fa-angle-up"></i></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+                <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+    <script src="" ></script>-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+    <script src="/portfolio_old/nitharsan/assets/js/bootstrap.bundle.js" ></script>
+    <script src="/portfolio_old/nitharsan/assets/js/bootstrap.js" ></script>
+    <script src="/portfolio_old/nitharsan/assets/js/scriptTopMenu.js"></script>
+    <!-- BLOQUER LA COPIE D'IMAGE OU DE TEXTE-->
+    <script type="text/javascript">
+    //EMPECHER LA COPIE
+        /*document.onselectstart=new Function("return false");
+        document.oncontextmenu=new Function("return false");
+        document.ondragstart =new Function("return false");
+        function ImpEcrOff() { SetInterval("window.clipboardData.setData('text','')",20); }*/
+    </script>
+
+
+        <script src="/portfolio_old/nitharsan/assets/js/holder.min.js" ></script>
+        <script src="/portfolio_old/nitharsan/assets/js/jquery-3.3.1.slim.min.js" ></script>
+        <script src="/portfolio_old/nitharsan/assets/js/popper.min.js" ></script>
+
+    
+            <script src="/portfolio_old/nitharsan/assets/js/scriptDeBase.js" ></script>
+    
+
+
+</body>
+</html>

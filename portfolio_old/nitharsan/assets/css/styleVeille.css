@@ -1,0 +1,96 @@
+body, html {
+    background-color: rgba(19, 141, 117, 0.75);
+}
+/************************NAVBAR *************************/
+.bg-dark{
+    background-color: rgba(81, 84, 84, 0.89) !important;
+}
+
+/************************ VOLET POUR MENU LATERAL *************************/
+
+#volet {
+    /* fixer une largeur + style */
+    width: 250px;
+    padding: 10px;
+    background: #6B9A49; color: #fff;
+    /*décalons le volet en dehors de l'écran en ne faisant ressortir que notre lien.*/
+    position: fixed;
+    left: -270px; top: 155px;
+    /*transition sur le volet*/
+    -webkit-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+}
+
+#volet a.ouvrir {
+    right: -158px;
+    top: 100px;
+}
+
+#volet a.fermer {
+    right: -88px;
+    top: 110px;
+}
+
+#volet a.ouvrir,
+#volet a.fermer {
+    /* fixer une largeur + style */
+    padding: 15px 25px;
+    background: rgba(70, 185, 51, 0.85);
+    color: #fff;
+    text-decoration: none;
+
+    /*décalons le volet en dehors de l'écran en ne faisant ressortir que notre lien.*/
+    position: absolute;
+
+    /* quelques styles CSS3 */
+    -ms-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+
+    border-radius: 0 0 8px 8px;
+}
+
+/*moment nous allons faire sortir le volet.*/
+#volet:target {
+    /*va passer de -300 a 0 en 0.5secondes*/
+    left: 0;
+}
+
+/*CACHER LE VOLET DE FERMETURE*/
+#volet a.fermer {
+    display: none;
+}
+/*RETOUR INVERS QUAND LIEN volet_clos CIBLÉ/TARGET*/
+#volet_clos:target #volet {
+    left: -270px;
+}
+/*CACHER "OUVRIR" AFFICHER "FERMER" QUAND LIEN volet CIBLÉ*/
+#volet:target a.ouvrir {
+    display: none;
+}
+#volet:target a.fermer {
+    display: block;
+}
+
+/*FERMETURE*/
+
+/************************MENU LATERAL *************************/
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #009688;
+}
+
+.nav-pills .nav-link{
+    color: #000000;
+}
+/************************BOUTON *************************/
+.btn-outline-success.active.custom-file-control::before, .btn-outline-success.custom-file-control:active::before, .btn-outline-success.custom-file-control:focus::before, .btn-outline-success.custom-file-control:hover::before, .btn-outline-success.focus.custom-file-control::before,
+.btn.btn-outline-success.active, .btn.btn-outline-success.focus, .btn.btn-outline-success:active,
+.btn.btn-outline-success:focus, .btn.btn-outline-success:hover, .open > .btn-outline-success.dropdown-toggle.custom-file-control::before,
+.open > .btn.btn-outline-success.dropdown-toggle {
+    color: #fff !important;
+    background-color: #28a745 !important;
+    border-color: #28a745 !important;
+}
